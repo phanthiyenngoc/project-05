@@ -17,3 +17,70 @@ button {
   font-size: inherits;
   font-family: inherit;
 }
+:root {
+  --header-bg: pink;
+}
+/* common */
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+
+  margin: 0 auto;
+}
+.button {
+  display: inline-block;
+  min-width: 11.3rem;
+  min-height: 5.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #212832;
+  border: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* header */
+.header {
+  background: var(--header-bg);
+}
+.nav {
+  margin-top: 4.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_left-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_left-group {
+  display: inline-flex;
+  padding: 2.3 rem;
+  align-items: center;
+}
+.nav_left-group--logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.text {
+}
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
